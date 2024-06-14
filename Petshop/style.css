@@ -1,0 +1,160 @@
+
+
+* {
+    text-align: center;
+}
+
+
+a {
+    /* cor link "nossa loja" */
+    color: white;
+    text-decoration: none;
+}
+
+
+header {
+    font-size: 20px;
+    margin: 0px 50px 0px 40px;
+    top: 0;
+    background-color: #c52a2a;
+    padding: 1px;
+    /* tem q arrumar */
+
+    border-radius: 3px;
+    background: linear-gradient(90deg, rgba(8, 5, 56, 1) 6%, rgba(0, 224, 255, 1) 100%);
+     border-radius: 10px 10px;
+
+}
+
+
+header ul {
+    /* navegação  */
+    color: rgb(226, 177, 43);
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    /* remove as bolinhas do texto */
+}
+
+
+header img {
+    /*float: left; Para alinhar a imagem à esquerda, porem n mudo muito*/
+    width: 50px;
+    /* muda a largura */
+    height: 50px;
+    /* muda a altura */
+    border-radius: 50%;
+    /* muda o formato */
+    border: 5px solid rgb(0, 1, 36)
+        /* muda a cor da borda */
+}
+
+
+nav {
+    text-align: center;
+    /* centraliza a imagem ou texto */
+    width: 100%;
+}
+
+
+nav a:hover {
+    /* sombreamento do header */
+
+    color: rgb(0, 0, 0);
+    box-shadow: inset 200px 200px 00px rgb(250, 250, 250);
+    transition: 1s;
+}
+
+
+section nav ul h2 {
+    background: rgb(15, 0, 15);
+    background: radial-gradient(circle, rgba(253, 187, 45, 1) 0%, rgba(34, 193, 195, 1) 100%);
+    list-style-type: none;
+    /*remove a bolinha do texto */
+    text-decoration: underline;
+    /* sublinha o texto */
+}
+
+
+main {
+    margin: 30px 40px;
+    padding: 20px;
+}
+
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    bottom: 0;
+    text-align: center;
+    /* Alinha o footer na parte inferior */
+    left: 0;
+    /* Alinha o footer no canto esquerdo */
+    width: 100%;
+    /* Define a largura do footer como 100% da largura da janela */
+    padding: 10px;
+    /* Espaçamento interno do footer */
+
+}
+
+h3 {
+    /* nossos produtos  */
+    color: #000000;
+    background: radial-gradient(circle, rgba(253, 187, 45, 1) 0%, rgba(34, 193, 195, 1) 100%);
+    margin: 10%;
+    padding: 10px 50px;
+    border-radius: 10px 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+h4 {
+    /* promoçoes */
+    font-size: 30px;
+    color: #000000;
+    background: radial-gradient(circle, rgba(253, 187, 45, 1) 0%, rgba(34, 193, 195, 1) 100%);
+    text-align: center;
+    border-radius: 10px 10px;
+}
+
+
+h5 {
+    /* entre em contato */
+        color: #000000;
+    font-size: 30px;
+    /* define o tamanho do texto */
+}
+
+
+table {
+    /* colocar uma imagem de fundo meio opaco atras da tabela  */
+    margin: auto;
+    /* muda a largura */
+    background-color: rgba(34, 193, 195, 1);
+    border-collapse: collapse;
+    /* border-collapse: collapse; deixa as bordas da tabela mais limpas e organizadas */
+    border: 1px solid #000;
+    /*linhas da tabela */
+    border-radius: 10px 10px;
+}
+
+
+td {
+    /* alterei a letra da tabela pela tag font*/
+    font-family: new century schoolbook, tex gyre schola, serif;
+}
+
+
+body {
+    max-width: 800px;
+    padding: 20px;
+    background: #fff;
+    margin: auto;
+    /* AJUSTA AS BORDAR POR IGUAL AUTOMATICAMENTE */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.719);
+    /* CRIA UMA SOMBRA SOBRE TAL PROPRIEDADE */
+}
+html{
+    background-color:rgba(253, 187, 45, 1);
+}
